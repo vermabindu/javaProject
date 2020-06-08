@@ -29,7 +29,7 @@ public class HelloWorld {
 		double num2 = 80.00d;
 		double sum = (num + num2) * 100.00d;
 		System.out.println( "sum =" +sum);
-		double remainder = sum % 40.00;
+		double remainder = sum % 60.00;
 		System.out.println("remainder =  "+ remainder);
 		boolean checkRemainder = remainder == 0 ? true : false;
 		System.out.println( "remainder = " + checkRemainder);
